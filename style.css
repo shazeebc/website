@@ -11,7 +11,7 @@
 }
 .hea{
     width: 100%;
-    height: 12vh;
+    height: 13vh;
     background-color: black;
     padding-right: 18%;
 }
@@ -19,23 +19,36 @@
     border-right: 2px solid gray;
     /* padding: 5px 5px 5px  */
 }
+.hed ul a:hover{
+    color:white;
+    background-color: green;
+    border-radius: 1rem;
+}
 
 .hed a{
-   color: white;
+   color: green;
+   font-weight: bold;
 }
   .hed ul{
 
-     border: 2px solid gray; 
-     border-radius: 20px;
+     border: 4px solid green; 
+     border-radius: 40px;
     /* padding: 10px 16px 10px 16px ; */
     padding-bottom: 7px;
     padding-top: 10px;
  } 
  .header{
-    color: white;
+    color: green;
     padding: 6px 3px;
+    font-weight: bold;
 
  }
+ .header:hover{
+    color: white;
+    background-color:green;
+    border-radius: 1rem;
+ }
+
 .lamb{
     padding-top: 20px;
     background-color: gray;
